@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Phone Price Prediction in Kenya</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='ipl-favicon.ico') }}">
+        <link rel="stylesheet" href="../static/styles.css">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class='heading_first'>Phone Price Prediction for </span><span class="heading_second">arious Phone Models In Kenya</span></h2>
+            <div class='description'>
+    			<p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+    		</div>
+    	</div>
+
+        <!-- Prediction Area -->
+        <div class="prediction-area">
+
+            <!-- IPL Banner - 1 -->
+            <div class='ipl-banner-left'>
+
+                <div class="slider-frame">
+                    <div class="slide-images-up">
+
+                        <!-- Image-1 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/daniel.jpg" alt="Mumbai Indians">
+                        </div>
+                        <!-- Image-2 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/emmanuel.jpg" alt="Sunrisers Hyderabad">
+                        </div>
+                        <!-- Image-3 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/freestocks.jpg" alt="Royal Challengers Bangalore">
+                        </div>
+                        <!-- Image-4 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/georgia.jpg" alt="Delhi Capitals">
+                        </div>
+                        <!-- Image-5 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/manik.jpg" alt="Rajasthan Royals">
+                        </div>
+                        <!-- Image-6 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/omid.jpg" alt="Kolkata Knight Riders">
+                        </div>
+                        <!-- Image-7 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/rami.jpg" alt="Kings XI Punjab">
+                        </div>
+                        <!-- Image-8 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/wesley.jpg" alt="Chennai Super Kings">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+			<!-- Result -->
+			<div class="results">
+				<p class='result-p'>The final predicted score (range): {{ lower_limit }} to {{ upper_limit }}</p>
+			</div>
+
+            <!-- IPL Banner - 2 -->
+            <div class='ipl-banner-right'>
+
+                <div class="slider-frame">
+                    <div class="slide-images-down">
+
+                        <!-- Image-1 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/daniel.jpg" alt="Mumbai Indians">
+                        </div>
+                        <!-- Image-2 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/emmanuel.jpg" alt="Sunrisers Hyderabad">
+                        </div>
+                        <!-- Image-3 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/freestocks.jpg" alt="Royal Challengers Bangalore">
+                        </div>
+                        <!-- Image-4 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/georgia.jpg" alt="Delhi Capitals">
+                        </div>
+                        <!-- Image-5 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/manik.jpg" alt="Kolkata Knight Riders">
+                        </div>
+                        <!-- Image-6 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/omid.jpg" alt="Rajasthan Royals">
+                        </div>
+                        <!-- Image-7 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/rami.jpg" alt="Kings XI Punjab">
+                        </div>
+                        <!-- Image-8 -->
+                        <div class="image-container">
+                            <img class="image-width" src="../static/wesley.jpg" alt="Chennai Super Kings">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="../static/"><i class="static"></i></a>
+               <a target="_blank" href="../static/"><i class="static"></i></a>
+           </div>
+           <p class='footer-description'>Made with ❤️ by Dickson Nyaboga.</p>
+       </div>
+
+    </body>
+</html>
